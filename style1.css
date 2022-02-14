@@ -1,0 +1,124 @@
+.body {
+    margin: 0;
+    font-family: Nunito Sans, Arial;
+}
+.container {
+    max-width: 1438px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    
+}
+.header {
+    margin: 0;
+    background: #131313;
+    }
+.header-nav {
+    list-style: none;
+    display: flex;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.header-nav-item {
+    margin-right: 47px;
+}
+.phone {
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 15px;
+text-align: right;
+text-decoration-line: underline;
+
+color: #E3B873;
+}
+.button {
+    background-color:#E3B873;
+    padding: 13px 33px;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+.logo {
+    color: #E3B873;
+}
+
+.body * {
+    box-sizing: border-box;
+}
+.hero {
+    background-image: url(image/image\ 4.3.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    padding-left: 134px;
+    padding-bottom: 208px;
+    padding-right: 630px;
+    position: relative;
+}
+.hero-overlay {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, .7);
+}
+.title {
+    margin: 0;
+    font-family: Yeseva One, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+.subtitle {
+    margin: 0;
+    font-family: Nunito Sans, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.button-submit {
+    background: none;
+    padding: 13px 33px;
+    color: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid #FFFFFF;
+    margin-left: 29px;
+        
+    font-family: Nunito Sans, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;    
+}
