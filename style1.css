@@ -1,9 +1,14 @@
+@font-face {
+    src: url("fonts/NunitoSans-Regular.ttf");
+    font-family: "Nunito Sans";
+}
+
 .body {
     margin: 0;
     font-family: Nunito Sans, Arial;
 }
 .container {
-    max-width: 1438px;
+    max-width: 1440px;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -32,16 +37,22 @@
 .header-nav-item {
     margin-right: 47px;
 }
+.header-nav-item a {
+    text-decoration: none;
+    color: white;
+}
+.header-home a {
+    color: #E3B873;
+}
 .phone {
     font-family: Nunito Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 15px;
-text-align: right;
-text-decoration-line: underline;
-
-color: #E3B873;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
 }
 .button {
     background-color:#E3B873;
@@ -62,6 +73,12 @@ color: #E3B873;
     }
 
 .logo {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
     color: #E3B873;
 }
 
@@ -96,6 +113,10 @@ color: #E3B873;
     line-height: 53px;
     text-transform: uppercase;
     color: #FFFFFF;    
+}
+
+.color-text-hero {
+    color: #E3B873;
 }
 .subtitle {
     margin: 0;
