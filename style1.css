@@ -61,6 +61,7 @@
     color: #E3B873;
 }
 .button {
+    cursor: pointer;
     background-color:#E3B873;
     padding: 13px 33px;
     color: #FFFFFF;
@@ -235,8 +236,14 @@
 
 }
 
-
-
+.control {
+    margin-top: -350px;
+}
+.container-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .title-control {
     font-family: Yeseva One;
     font-style: normal;
@@ -246,4 +253,70 @@
     text-align: center;
     text-transform: uppercase;    
     color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.camera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.line1 {
+    background: #E3B873;
+    border: 1px solid #E3B873;
+    width: 32px;
+    height: 1.5px;
+    margin: 5px;
+}
+.room-box {   
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.room-box-overlay {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, .7);
+    
+}
+.line2-facility {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line2 {
+    display: flex;
+    justify-content: center;
+    
+    background: #E3B873;
+    border: 1px solid #E3B873;
+    width: 55px;
+    height: 1.5px;
+    margin: 5px;   
+    
+}
+
+.facility {
+    display: flex;
+    justify-content: center;
+    
+    width: 697px;
+    height: 173px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
 }
