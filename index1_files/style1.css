@@ -689,12 +689,6 @@
     font-size: 18px;
     line-height: 23px;    
     color: #181818;
-    display: flex;
-    flex-direction: row;
-}
-.clients-foto {
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 .clients-text {
     text-align: center;
@@ -705,26 +699,6 @@
     line-height: 29px;
     text-align: center;
     color: #363636;
-    text-transform:lowercase;
-}
-.labels {
-    display: flex;
-}
-.input-clients {
-    background: none;
-    border: none;    
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);    
-    width: 231px;    
-    height: 30px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 23px;    
-    color: #FFFFFF;
-}
-.input-question {
-    width: 517px;
 }
 .map {
     background-size: cover;
