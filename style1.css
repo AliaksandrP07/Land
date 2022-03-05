@@ -1,8 +1,3 @@
-@media only screen and (max-width:1440px) {
-    .header-nav-item, .button {display: none;}    
-}
-
-
 @font-face {
     src: url("fonts/NunitoSans-Regular.ttf");
     font-family: "Nunito Sans";
@@ -10,6 +5,17 @@
 @font-face {
     src: url("fonts/YesevaOne-Regular.ttf");
     font-family: "Yeseva One";
+}
+
+.font-nunito-normal {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+}
+.font-yeseva-normal {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
 }
 
 
@@ -22,25 +28,21 @@
     margin: 0 auto;
     position: relative;
     z-index: 1; 
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 .header-content {
     display: flex;
     justify-content: space-between;
     height: 83px;
-    align-items: center;
-    
+    align-items: center;    
 }
 .header {
     margin: 0;
     background: #131313;
-    }
+}
 .header-nav {
     list-style: none;
-    display: flex;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+    display: flex;    
     font-size: 11px;
     line-height: 15px;
     color: #FFFFFF;
@@ -55,10 +57,7 @@
 .header-home a {
     color: #E3B873;
 }
-.phone {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+.phone {   
     font-size: 11px;
     line-height: 15px;
     text-align: right;
@@ -74,7 +73,6 @@
     border-radius: 2px;
     border: 0;
     outline: 0;
-
     font-family: Nunito Sans;
     font-style: italic;
     font-weight: normal;
@@ -85,9 +83,7 @@
     }
 
 .logo {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 11px;
     line-height: 15px;
     text-transform: uppercase;
@@ -100,7 +96,7 @@
 .city {
     background-image: url(image/image4.3.jpg);
     background-size: cover;
-    height: 707px;
+   
     padding-top: 156px;
     padding-left: 88px;
     padding-bottom: 199px;
@@ -138,7 +134,7 @@
     font-size: 22px;
     line-height: 36px;
     color: #FFFFFF;
-    width: 580px;
+    
 }
 .button-submit {
     background: none;
@@ -158,23 +154,21 @@
 }
 
 .projects {
+    background-color: black;
     background-size: cover;
-    height: 1074px;
+    
     padding-top: 99px;
     padding-left: 88px;
     padding-bottom: 397px;
     padding-right: 88px;
-    position: relative;
-    background-color: black;
+    position: relative;    
 }
 .city-ul {
     list-style: none;
     display: flex;
     justify-content: end;
     align-items: flex-start;
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
@@ -198,9 +192,7 @@
     display: flex;
 }
 .title2 {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 27px;
     line-height: 37px;
     letter-spacing: -0.07em;
@@ -209,9 +201,7 @@
 }
 
 .subtitle2 {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 14px;
     line-height: 27px;
     color: #FFFFFF;
@@ -222,9 +212,7 @@
     grid-gap: 2vw;    
 }
 .area2 {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
@@ -232,9 +220,7 @@
 
 }
 .area3 {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF;
@@ -242,7 +228,7 @@
 
 .control {
     margin-top: -350px;
-    height: 1072px;
+    
     position: relative;
 }
 .container-control {
@@ -251,9 +237,7 @@
     justify-content: center;
 }
 .title-control {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -286,8 +270,10 @@
 .room-box-overlay {
     content: "";
     position: absolute;
-    width: 817px;
-    height: 434px;
+    top: 117px;
+    right: 310px;
+    left: 312px;
+    bottom: 373px;
     background-color: rgba(0, 0, 0, .7);    
 }
 .line2-facility {
@@ -308,11 +294,9 @@
 
 .facility {
     display: flex;    
-    width: 697px;
+    
     height: 173px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 18px;
     line-height: 37px;
     text-align: center;
@@ -335,9 +319,7 @@
 }
 
 .label-control {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 13px;
     line-height: 21px;    
     color: rgba(54, 54, 54, 0.5);
@@ -351,7 +333,6 @@
     border-radius: 2px;
     border: 0;
     outline: 0;
-
     font-family: Nunito Sans;
     font-style: italic;
     font-weight: normal;
@@ -359,7 +340,6 @@
     line-height: 15px;
     text-align: center;
     text-transform: uppercase;
-
     width: 207px;
     height: 55px;
 }
@@ -388,15 +368,12 @@
 }
 .checkbox-control {
     align-self:center;
-}
-    
-    
-.repair {
-    height: 1680px;
 }    
-.container-repair {
     
-}
+.repair {    
+    position: relative;
+}    
+
 .title-repair {
     display: flex;
     justify-content: center;
@@ -410,25 +387,9 @@
     display: flex;
     justify-content: space-between;
 }
-.repair-block1 {
-    background-image: url(image/image8.3.jpg);
-            
-}
-.repair-block2 {
-    background-image: url(image/image3.jpg);
-            
-}
-.repair-block3 {
-    background-image: url(image/image3.2.jpg);
-            
-}
 .repair-block {
-    width: 392px;
-    height: 638px;
-    background-repeat: no-repeat;
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+    width: 100%;    
+    background-repeat: no-repeat;    
     font-size: 18px;
     line-height: 25px;
     color: #363636;
@@ -436,22 +397,20 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;        
-    margin: 20px;
+    /* margin: 20px; */
     padding-bottom: 50px;
 }
 .repair-block-block {
     background: white;
-    width: 335px;
+    width: 70%;
     height: 295px;
     padding-left: 30px;
+    margin-top: -127px;
 }
 .from {
     background: #E3B873;    
     width: 228px;
-    height: 54px;
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+    height: 54px;    
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
@@ -461,10 +420,7 @@
     align-items: center;        
     margin-left: -30px;
 }
-.ul-redec {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+.ul-redec {    
     font-size: 13px;
     line-height: 27px;
     color: #959595;
@@ -472,25 +428,24 @@
 }
 .repair-block-bottom {
     background-image: url(image/image6.1.jpg);
-    width: 1256px;
-    height: 612px;
+    width: 100%;    
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
 }
 .repair-bb-in {
-    width: 527px;
-    height: 539px;
+    width: 100%;    
     padding-left: 114px;
     padding-top: 50px;
 }
 .repair-bb-in-in {
-    width: 500px;
-    height: 103px;
+    width: 100%;    
     display: flex;
     margin-top: 35px;
 }
-
+.repair-bbb {
+    padding-bottom: 200px;
+}
 .number {
     color: white;
     background: #E3B873;
@@ -514,30 +469,22 @@
     flex-direction: column;    
 }
 
-.text-repair {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+.text-repair {    
     font-size: 18px;
     line-height: 26px;
     text-align: center;    
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
-.label-repair {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+.label-repair {    
     font-size: 13px;
     line-height: 21px;    
     color: rgba(255, 255, 255, 0.5);
     margin: 30px;
 }
 
-.text-repair {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+.text-repair {    
     font-size: 14px;
     line-height: 163.68%;    
     color: #FFFFFF;
@@ -551,7 +498,6 @@
     border-radius: 2px;
     border: 0;
     outline: 0;
-
     font-family: Nunito Sans;
     font-style: italic;
     font-weight: normal;
@@ -570,10 +516,7 @@
     border: none;    
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);    
     width: 408px;    
-    height: 30px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+    height: 30px;    
     font-size: 14px;
     line-height: 23px;    
     color: #FFFFFF;
@@ -591,11 +534,7 @@
     border-radius: 50%;
     display: flex;
 }
-.text-pig {
-    width: 300px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+.text-pig {    
     font-size: 18px;
     line-height: 26px;    
     color: #E3B873;
@@ -603,18 +542,24 @@
 .pig-text {
     display: flex; 
     justify-content: end;
-    width: 1225px;
+    width: 100%;
+    margin-top: 30px;
 }
-.fantasies {
-    
+.fantasies {    
     background-image: url(image/image5.1.jpg);
-    background-size: cover;
-    height: 864px;    
+    background-size: cover;    
     position: relative;
 }
 .container-fantasies {
     display: flex;
     flex-direction: row;
+}
+.fantasies-block2 {
+    margin-top: -85px;
+    text-align: end;
+}
+.fantasies-block3 {
+    margin-top: -150px;
 }
 .fantasies-overlay {
     content: "";
@@ -623,30 +568,23 @@
     right: 0px;
     left: 0px;
     bottom: 0px;    
-    height: 864px;
     background-color: rgba(0, 0, 0, .7);
 }
-.title-f {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+.title-f {    
     font-size: 27px;
     line-height: 37px;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     color: #E3B873;
 }
 .ul-f {
     list-style: none;
 }
-.li-f {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+.li-f {    
     font-size: 20px;
-    line-height: 38px;    
+    line-height: 38px;
     color: #FFFFFF;
     text-transform: none;
-    margin: 30px;    
+    margin: 30px;
 }
 .fantasies-block-in {
     margin: 35px;
@@ -656,17 +594,12 @@
     margin-bottom: 0;
 }
 
-.clients {    
-    height: 1109px;    
-    
+.clients {      
     position: relative;
     margin-top: 170px;
     margin-bottom: -250px;
 }
-.title-clients {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+.title-clients {    
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -674,18 +607,15 @@
     color: #181818;
 }
 .clients-block {
-    display: flex;
+    display: flex;    
 }
 
 .clients-block-in {
-    width: 376px;
-    height: 455px;
+    width: 100%;    
     margin: 20px;
+    margin-bottom: 100px;
 }
-.clients-block-in-up {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+.clients-block-in-up {    
     font-size: 18px;
     line-height: 23px;    
     color: #181818;
@@ -697,10 +627,7 @@
     margin-bottom: 20px;
 }
 .clients-text {
-    text-align: center;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+    text-align: center;    
     font-size: 18px;
     line-height: 29px;
     text-align: center;
@@ -709,27 +636,33 @@
 }
 .labels {
     display: flex;
+    justify-content: center;
+}
+.label-question {
+    text-align: center;
+}
+.checkbox-question {
+    text-align: center;
+}
+.button-question {
+    align-self: center;;
 }
 .input-clients {
     background: none;
     border: none;    
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);    
-    width: 231px;    
-    height: 30px;
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+    width: 231px;
+    height: 30px;    
     font-size: 14px;
-    line-height: 23px;    
+    line-height: 23px;
     color: #FFFFFF;
 }
 .input-question {
     width: 517px;
 }
 .map {
-    background-size: cover;
-    height: 951px;
-    padding-top: 275px;
+    background-size: cover;    
+    padding-top: 300px;
     padding-left: 88px;
     padding-bottom: 30px;
     padding-right: 88px;
@@ -750,10 +683,20 @@
     display: flex;
     flex-direction: column;    
 }
-.map-title {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+.map-form-mobile {
+    display: none;
+}
+.input-clients-m {
+    background: none;
+    border: none;    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);    
+    width: 340px;
+    height: 30px;    
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.map-title {    
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -761,14 +704,11 @@
     color: #E3B873;
 }
 .map-images {
-    /* display: flex;
-    justify-content: center; */
     margin: auto;
 }
 .map-map {
-    /* display: flex;
-    justify-content: center; */
     margin: auto;
+    margin-top: 30px;
 }
 .map-overlay {
     content: "";
@@ -779,9 +719,46 @@
     bottom: 0px;
     background-color:rgba(0, 0, 0, .9);
 }
-
-
 .footer {
     margin: 0;
     background: #131313;
+}
+
+
+@media only screen and (max-width:1440px) {
+    .header-nav-item, .button {display: none;} 
+    .container {width: 90%;} 
+
+    .img-city {display: none;}
+    .room {width: 340px; height: 207px;}
+    
+     
+    .ul-f, .control-form-block {display: none;}
+    .fantasies {display: none;}
+    
+    .repair-blocks {flex-direction: column;} 
+    .repair-bbb {display: none;}
+    
+    .clients {display: none;} 
+    
+    .map-form-mobile {
+        display: block;
+        width: 90%;
+    }
+    .map-map {width: 100%;}
+    .footer {display: none;}
+
+    .title {
+        font-size: 23px;
+        line-height: 132.83%;
+    }
+    .city, .projects {
+        margin-left: -88px;
+    }
+    .wrapped {
+        display: block;
+    }
+    .checkbox-control {display: none;}
+    .repair {margin-top: 200px;}
+    
 }
